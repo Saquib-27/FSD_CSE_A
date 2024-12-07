@@ -1,0 +1,39 @@
+body{
+    background-color:aqua;
+}
+div+ p{
+    background-color: yellow;
+}
+.container{
+background-color: black;
+}
+#cont{
+background-color: red;
+}
+div .a1{
+background-color: darkblue;
+}
+div #a2{
+background-color:darkgreen ;
+}
+/*#container{
+    background-color:aliceblue;
+    height: 300px;
+    border:2px solid darkblue;
+    margin-top:50px;
+    margin-left:300px;
+    padding-top: 100px;
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+.child1{
+    background-color: brown;
+    border:1px dotted darkorange;
+    height:100px;
+    width:100px;
+    padding-top: 20px;
+    padding-left: 40px;
+    color:aqua
+    
+
+}*/

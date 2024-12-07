@@ -1,0 +1,17 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+.child1,.child2{
+    display:flex;
+    justify-content:space-evenly;
+    height:50px;
+    background-color:whitesmoke;
+    color:black;
+    align-items:center;
+    border:1px solid black;
+}
+.child3 img{
+    height:400px;
+    width:100%;
+}

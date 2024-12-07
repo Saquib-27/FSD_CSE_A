@@ -1,0 +1,69 @@
+.container{
+    height:500px;
+    width:100%;
+    display: grid;
+    grid-template-rows: repeat(6,1Fr);
+    grid-template-columns:repeat(12,1Fr);
+    background-color:black;
+}
+.row1{
+    grid-column: 1/13;
+    grid-row: 1/2;
+    height:50px;
+    background-color: black;
+    color: white;
+    border: 0px solid yellow;
+}
+.row2{
+    grid-column: 1/13;
+    grid-row: 2/3;
+    height:50px;
+    background-color: navy;
+    color: white;
+    border: 0px solid yellow;
+}
+.row3{ 
+    grid-column: 1/13;
+    grid-row:3/4;
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/LEO/Jup24/Phase1/2/FDFO_bank_PC_Header_1500x30055.gif");
+    height:250px;
+}
+.row4{
+    grid-column: 1/13;
+    grid-row: 4/5;
+    height:300px;
+    background-color: aqua;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.child41,.child42,.child43,.child44{
+    height:250px;
+    width:250px;
+    border:2px solid yellow;
+}
+.child41{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    border:1px solid red;
+}
+.child411,.child412,.child413,.child414{
+   height:125px;
+   width:125px; 
+   background-color: brown;
+}
+.child411{
+background-color: blueviolet;
+}
+.child412{
+    background-color: blue;
+}
+.child413{
+    background-color: green;
+}
+.child414{
+    background-color:orange;
+}
+
+
